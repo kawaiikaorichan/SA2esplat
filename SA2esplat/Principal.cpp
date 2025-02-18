@@ -1,6 +1,6 @@
 #include "pch.h"
 
-DataArray(CreditsEntry, MainCredits, 0x966400, 560);
+DataArray(CreditsEntry, MainCredits, 0x966400, 549);
 
 const char MasterStringListSpanish0[] = "\tModo para 1 jugador."; /* "\tModo para 1 jugador." */
 
@@ -2872,14 +2872,6 @@ CreditsEntry CreditsList_list[] = {
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
 	{ 2, 1, 1, 1, 0, "Director" },
 	{ 1, 1, 1, 1, 1, "TAKASHI IIZUKA" },
 	{ 0, 1, 1, 1, 1, NULL },
@@ -2902,9 +2894,6 @@ CreditsEntry CreditsList_list[] = {
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 2, 1, 1, 1, 0, "Director de sonido" },
 	{ 1, 1, 1, 1, 1, "JUN SENOUE" },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
-	{ 0, 1, 1, 1, 1, NULL },
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 0, 1, 1, 1, 1, NULL },
@@ -3076,7 +3065,7 @@ CreditsEntry CreditsList_list[] = {
 	{ 1, 1, 1, 1, 1, "JOHNNY GIOELI" },
 	{ 1, 1, 1, 1, 1, "TED POLEY" },
 	{ 1, 1, 1, 1, 1, "PAUL SHORTINO" },
-	{ 1, 1, 1, 1, 1, "MUSICDRAWZ" },
+	{ 1, 1, 1, 1, 1, "\"MUSICDRAWZ\"" },
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 2, 1, 1, 1, 0, "Efectos de sonido" },
 	{ 1, 1, 1, 1, 1, "TAKASHI ENDOH" },
@@ -3364,7 +3353,7 @@ CreditsEntry CreditsList_list[] = {
 	{ 1, 1, 1, 1, 1, "\"SHADDATIC\"" },
 	{ 1, 1, 1, 1, 1, "\"SONIC SUNSET\"" },
 	{ 1, 1, 1, 1, 1, "\"KURASSHU MASSHU\"" },
-	{ 1, 1, 1, 1, 1, "\"SKRILLTRP\"" },
+	{ 1, 1, 1, 1, 1, "\"SKRILLTRAP\"" },
 	{ 1, 1, 1, 1, 1, "\"SEBARBS\"" },
 	{ 1, 1, 1, 1, 1, "\"TASHER GAMES\"" },
 	{ 1, 1, 1, 1, 1, "\"BICHIRBROS\"" },
@@ -3429,7 +3418,7 @@ CreditsEntry CreditsList_list[] = {
 
 void ReplaceMainCredits()
 {
-	for (int i = 0; i < 560; i++)
+	for (int i = 0; i < 549; i++)
 	{
 		MainCredits[i] = CreditsList_list[i];
 	};
@@ -3444,24 +3433,19 @@ extern "C"
 		ReplaceMainCredits();
 	}
 
-	// Optional.
-	// This function runs code on every frame of the game, INCLUDING being in menus, cutscenes, etc.
-	// It is recommended to test for game state so that you only run code at a specific time.
 	__declspec(dllexport) void __cdecl OnFrame()
 	{
 		
 	}
 
-	// Optional.
-	// This function runs code every time the player inputs. Good for adding custom inputs / overriding events.
 	__declspec(dllexport) void __cdecl OnInput()
 	{
+
 	}
 
-	// Optional.
-	// This function runs while the game processes input.
 	__declspec(dllexport) void __cdecl OnControl()
 	{
+
 	}
 
 	__declspec(dllexport) ModInfo SA2ModInfo = { ModLoaderVer }; // This is needed for the Mod Loader to recognize the DLL.
