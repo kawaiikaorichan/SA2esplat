@@ -28,6 +28,10 @@ extern "C"
 		{
 			ReplaceAdvertiseArgentino();
 		}
+		else if (Dub == Chileno)
+		{
+			ReplaceAdvertiseChileno();
+		}
 		else
 		{
 			ReplaceAdvertiseNeutro();

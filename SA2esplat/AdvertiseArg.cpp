@@ -706,7 +706,7 @@ const char* AdvertiseSpanishArgentino[]
 
 	// Final Chase
 	"Me llamo Shadow, el erizo.\nLa única forma de vida suprema.",
-	"Por fin, las siete Esmeraldas Caos\nestán aquí. Estoy muy cerca\ndel momento en que\nmi deseo se cumplirá.",
+	"Por fin, las siete Esmeraldas Caos\nestán acá. Estoy muy cerca\ndel momento de que\nmi deseo se cumpla.",
 	"Pero incluso a estas alturas,\nalguien parece dirigirse a la\nboca del Cañón Eclipse.\nQué pérdida de tiempo...",
 	"Pero en este plan no hay lugar\npara errores. Hay que eliminar\ntodas las incertidumbres.",
 
@@ -815,13 +815,13 @@ const char* AdvertiseSpanishArgentino[]
 	"Usa el mismo ataque que",
 	"Tails con 20 Anillos.",
 
-	"UCP CHAO",
+	"UCB CHAO",
 	"Esta máquina creada por",
 	"Tails ayuda a un Chao.",
 	"Es débil, pero es el",
 	"personaje más rápido.",
 
-	"UCP CHAO SOMBRÍO",
+	"UCB CHAO SOMBRÍO",
 	"Un Chao sombrío en",
 	"una máquina de Eggman.",
 	"Es fuerte, pero es el",

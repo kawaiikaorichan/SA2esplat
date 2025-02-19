@@ -439,7 +439,7 @@ const char* AdvertiseSpanishChileno[]
 	"La ladrona fue esta murciélago\nodiosa y coqueta.",
 	"Justo cuando estaba por\natraparla, ¡Eggman se apareció e\nintentó robar la Esmeralda Maestra!",
 	"Como último recurso, logré\ndestrozar la Esmeralda Maestra para\nevitar problemas, pero sus pedazos\nse esparcieron por doquier.",
-	"Esa murciélago también fue a\nbuscar las piezas. ¡Debo\nencontrarlas rápido y restaurarla!",
+	"Esa murciélago también se fue\na buscarlos. ¡Tengo que apurarme en\encontrarlas y restaurar la Esmeralda!",
 
 	// Eggman 1
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
@@ -454,38 +454,38 @@ const char* AdvertiseSpanishChileno[]
 	"Mi nombre es Miles Prower,\npero todos me llaman Tails.",
 	"Rescaté a Amy de Eggman.\nElla dice que él no está\nplaneando nada bueno.",
 	"¡Me preocupa lo que\ntrama Eggman, pero primero\ntengo que salvar a Sonic!",
-	"¿Qué? ¿Aún quieres venir\nconmigo, Amy? Bueno, está bien,\npero no vayas a estorbar.",
+	"¿Qué? ¿Aún querí acompañarme, Amy?\nVale, esta bien, pero\nno me estei dando la lata.",
 
 	// Metal Harbor
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"¡Dios, Amy, ¿por qué tenías\nque seguirme hasta acá?!",
-	"Da igual, debo encargarme de él.\nParece que Shadow,\nel erizo que separece a mí,\ntambién vino a esta isla.",
-	"Ahora que lo sé, me voy.\n¡A tomar desprevenidos a\nlos militares para fugarme!",
+	"No importa, tengo que encargarme de él.\nParece que Shadow, el erizo que\nse ve igualito a mí,\ntambién vino para esta isla.",
+	"Ahora que ya lo sé, me marcho.\n¡Voy tomando desprevenido a los\nmilitares para escaparme!",
 	"Ah... ¿entonces ahora\nsí soy un prófugo?",
 
 	// Shadow 1
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Salí de la base\nmilitar en una pieza.\n¡Y lo que me encuentro!",
-	"¡Shadow, esta vez no escaparás!",
+	"¡Shadow, esta vez sí\nque te voy a pillar!",
 
 	// Green Forest
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Estaba a punto de\najustar cuentas con Shadow,\npero eso ya no importa.",
-	"Eggman dice que esta isla\nvolará en cinco minutos.", // this one is unused for some reason (so you can move it to the previous line with some line breaks)
-	"¡Agh, primero hay que\nsalir de esta isla!\n¡Debo avisarles a Amy y Tails!",
+	"Eggman dice que la isla\nexplotará en cinco minutos.", // this one is unused for some reason (so you can move it to the previous line with some line breaks)
+	"¡Agh, primero hay que\nsalir de esta isla!\n¡Voy a avisarles a Amy y a Tails!",
 
 	// Pumpkin Hill
 	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
 	"Sintiendo una tenue presencia\nde la Esmeralda Maestra,\nterminé en unas montañas lejanas.",
-	"El ambiente se siente tenebroso,\npero no debo tener miedo.",
-	"¡Debo reunir rápido las piezas\nde la Esmeralda Maestra!",
+	"Se siente terrorífico\nel ambiente, pero no\npuedo tener miedo.",
+	"¡Tengo que conseguir rápido las\npiezas de la Esmeralda Maestra!",
 
 	// Mission Street
 	"Mi nombre es Miles Prower,\npero todos me llaman Tails.",
 	"Eggman hizo una declaración\nde conquista del mundo.",
-	"Planea dominarnos con una\nterrible arma que destruyó\nla mitad de la Luna.\n¡No dejaré que eso pase!",
+	"Planea dominarnos con una\narma terrible que destruyó\nmedia Luna. ¡No voy\na dejar que eso pase!",
 	"Parece que Eggman\nestá usando las Esmeraldas Caos\npara alimentar esa arma.",
-	"¡Bien, usaremos también\nuna Esmeralda Caos para saber\ndónde están Eggman y su equipo!",
+	"¡Así que también vamos a usar\nuna Esmeralda Caos para saber\ndónde están Eggman y compañía!",
 	"Primero debemos hallar\nun lugar seguro.",
 
 	// Aquatic Mine
@@ -493,7 +493,7 @@ const char* AdvertiseSpanishChileno[]
 	"Seguí la señal de la\nEsmeralda Maestra a las montañas.",
 	"Parece que esta era\nuna mina carbonífera.\nAhora está parcialmente inundada.",
 	"Va a costarme encontrar\nlas piezas, pero no puedo\nquejarme todo el tiempo.",
-	"¡Debo reunir rápido las piezas\nde la Esmeralda Maestra!",
+	"¡Tengo que conseguir rápido las\npiezas de la Esmeralda Maestra!",
 
 	// Route 101
 	"Mi nombre es Miles Prower,\npero todos me llaman Tails.",
@@ -501,7 +501,7 @@ const char* AdvertiseSpanishChileno[]
 	"Resulta que Eggman y\ncompañía están en el espacio.",
 	"¡Siendo así, voy a hacer\nlo que sea para saber\ndónde está Eggman!",
 	"No te preocupes, Amy.\n¡No lo parece, pero sé\nconducir bastante bien!",
-	"¡Sé que encontraré al presidente!",
+	"¡Sé que voy a\nencontrar al presidente!",
 
 	// Hidden Base
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
@@ -519,28 +519,28 @@ const char* AdvertiseSpanishChileno[]
 	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
 	"La base secreta de Eggman está\nen lo profundo de la pirámide.",
 	"Parece que necesitamos unas\nllaves para abrir esta puerta.",
-	"¿Qué? ¿Debo buscar la llave?\n¡Eso será una joda! Pero esto\nes por la Esmeralda Maestra.",
-	"¡Te enseñaré por qué soy\nel mejor buscador de tesoros!",
+	"¿Qué? ¿Tengo que ir a buscar la\nllave? ¡Me están webeando!\nPero lo voy a hacer\npor la Esmeralda Maestra.",
+	"¡Les voy a mostrar por qué soy\nel mejor cazatesoros del mundo!",
 
 	// King Boom Boo
 	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
 	"Encontrar las llaves\nfue pan comido. Ahora podemos\nentrar a la base secreta.",
 	"¿Mmm? ¿Y esta presencia?\n¡¿U-Un fantasma?!\n¿Será el guardián de la pirámide?",
-	"No creo que se pueda\nrazonar con este tipo.\nLo siento, pero me dejarás pasar,\nasí deba obligarte!",
+	"No creo que se pueda\nrazonar con este tipo.\n¡Perdóname, pero me vas a dejar\npasar, así te tenga que obligar!",
 
 	// Egg Golem (hero)
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Gracias a Knuckles,\npor fin pudimos abrir la puerta\nde la base secreta.",
 	"¡Lo que nos encontramos\nfue al mismo Eggman,\ncon un robot gigante!",
 	"¡Se nos adelantó y nos emboscó!",
-	"¡No me detendrás con\nesa pila de basura!",
+	"¿Pensai que ese montón de\nbasura me va a detener?",
 
 	// Eternal Engine
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
 	"Tras robar un transbordador\nespacial de la base de Eggman,\npor fin llegamos a la\nColonia Espacial ARK.",
 	"Se me ocurrió una idea\npara volar esa arma usando\nuna esmeralda bomba falsa.",
 	"Espero que Sonic\nlo haya entendido.",
-	"¡Ups, también debo ir a destruir\nel generador de la colonia!",
+	"¡Ups, yo igual tengo\nque ir a destruir el\ngenerador de la colonia!",
 
 	// Meteor Herd
 	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
@@ -550,22 +550,22 @@ const char* AdvertiseSpanishChileno[]
 
 	// Rouge
 	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
-	"Reuní la mitad de las piezas,\n¡y en ese momento la murciélago\nse me apareció!",
-	"¡Ella debe tener la otra mitad!\n¡Basta de charla!\n¡No me contendré,\nni porque sea mujer!",
-	"¡Tendré el resto de la\nEsmeralda Maestra de regreso!",
+	"Ya junté la mitad de las piezas,\n¡y justo ahora la murciélago\nse me apareció!",
+	"¡Ella debe tener la otra mitad!\n¡Esto se terminó!\n¡No me voy a contener,\naunque sea mujer!",
+	"¡Voy a conseguir\nel resto de la Esmeralda\nMaestra de vuelta!",
 
 	// Crazy Gadget
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Nuestro plan iba bien, pero\nse acaba de ir al caño.",
 	"Parece que Amy fue secuestrada\npor Eggman. Si la quiero rescatar,\ntengo que entregar la esmeralda.",
 	"No queda mucho tiempo antes de que\nEggman dispare esa arma de nuevo.",
-	"¡Tails, Amy, espérenme!",
+	"¡Tails, Amy, voy para allá!",
 
 	// Eggman 2
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
 	"Sonic cayó en la astuta trampa\nde Eggman y fue lanzado al espacio.",
 	"¡No es cierto...! ¡Sonic no\npudo haber muerto de esa forma!",
-	"¡No te saldrás con la tuya, Eggman!\n¡Ni creas que huiré! ¡Vas a caer!",
+	"¡No te vas a salir con la\ntuya, cárehuevo! ¡Tampoco andei\npensando que me voy huyendo!\n¡Vas a caer!",
 
 	// Final Rush
 	"¡Soy Sonic! ¡Sonic, el erizo!",
@@ -576,7 +576,7 @@ const char* AdvertiseSpanishChileno[]
 	// Shadow 2
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Tengo el tiempo contado\ny él apareció frente a mí.\nParece que ahora sí llegó la hora\nde ajustar cuentas con Shadow.",
-	"¡Shadow, muéstrame el poder\nde la forma de vida suprema!",
+	"¡Dale, Shadow, enséñame el poder\nde la forma de vida suprema!",
 
 	// Dark story recaps
 
@@ -598,8 +598,8 @@ const char* AdvertiseSpanishChileno[]
 	// Dry Lagoon
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
 	"Me encantan las joyas. Todo iba\nbien hasta que encontré mi\ngran presa, la Esmeralda Maestra.",
-	"Pero estaba ese molesto\nequidna persiguiéndome.\n¡Odio a los hombres posesivos!",
-	"Y entonces, el Dr. Eggman,\nese viejo bigotudo, se interpuso\ny la Esmeralda Maestra fue destrozada.",
+	"Pero ese equidna patudo me\nanda persiguiendo. ¡Hombres!\n¡Los posesivos son los que me cargan!",
+	"Y entonces, el Dr. Eggman,\nel pelado bigotón, se metió\ny la Esmeralda Maestra fue destrozada.",
 	"¡Ay, Dios! ¡Mira lo que hiciste!",
 	"Ahora tengo que reunir\nlas piezas de la Esmeralda Maestra\nlo antes posible.",
 
@@ -607,7 +607,7 @@ const char* AdvertiseSpanishChileno[]
 	"¡Soy un genio científico sin igual\nen el mundo, el Dr. Eggman!",
 	"Todo bien hasta el momento en que\nliberé a Shadow de la base militar.",
 	"Ahora él quiere que lleve\nlas Esmeraldas Caos a la\nColonia Espacial ARK.",
-	"No sé qué esté pasando.\nCreo que debería volver a la base\ny comprobar las cosas de nuevo.",
+	"No cacho bien lo que pasa.\nCreo que debería volver a la\nbase y echar una nueva mirada.",
 
 	// Radical Highway
 	"Me llamo Shadow, el erizo.\nLa única forma de vida suprema.",
@@ -617,7 +617,7 @@ const char* AdvertiseSpanishChileno[]
 
 	// Egg Quarters
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
-	"Verán, cuando ese viejo\nEggman apareció, instalé un\ntransmisor en su máquina.",
+	"Cachen, justo cuando el viejo ese\nde Eggman apareció, instalé un\ntransmisor en su máquina.",
 	"El motivo aún es secreto. Jiji...",
 	"Y así, lo seguí y llegué al\ninterior de la pirámide,\npero hay un callejón sin salida.",
 	"Parece que tengo que buscar\nlas llaves para pasar al otro\nlado de esta puerta.",
@@ -642,15 +642,15 @@ const char* AdvertiseSpanishChileno[]
 	// Security Hall
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
 	"Bueno, vine a la bóveda militar,\ntal y como lo planeó el Doctor.",
-	"Debo encontrar las tres\nEsmeraldas Caos que busco aquí,\naunque será pan comido para mí.",
+	"Tengo que encontrar las tres\nEsmeraldas Caos que están acá,\naunque para mí es facilito.",
 
 	// Flying Dog
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
-	"¡Qué horror...! ¡¿Cómo\npude meter la pata así?!",
-	"Cuando terminé de recoger\nlas tres Esmeraldas Caos, me puse\na bobear un poco en la bóveda.",
+	"¡Pucha que la dejé como la weá!",
+	"Luego de juntar las tres Esmeraldas\nCaos, quise curiosear un rato\nen la bóveda.",
 	"El sistema de seguridad se\nactivó, ¡encerrándome dentro!",
 	"Estoy atrapada ahí con un caza\npesado apareciéndose y un límite\nde tiempoen el detonador que\nShadow puso. ¡Odio esto!",
-	"¡Bueno, primero debo\nencargarme de esto!",
+	"¡Bueno, primero tengo\nque arreglar esto!",
 
 	// White Jungle
 	"Me llamo Shadow, el erizo.\nLa única forma de vida suprema.",
@@ -672,7 +672,7 @@ const char* AdvertiseSpanishChileno[]
 	// Sky Rail
 	"Me llamo Shadow, el erizo.\nLa única forma de vida suprema.",
 	"Tras recibir una llamada de Rouge,\nsalí en persecución del avión que\ntransporta la última Esmeralda Caos.",
-	"Una espeluznante cadena montañosa\nse extiende ante mí...\nPero no los dejaré escapar.",
+	"Una cadena montañosa y tétrica\me rodea... Pero no voy\na dejar que escapen.",
 
 	// Egg Golem (dark)
 	"¡Soy un genio científico sin igual\nen el mundo, el Dr. Eggman!",
@@ -683,30 +683,30 @@ const char* AdvertiseSpanishChileno[]
 	// Mad Space
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
 	"Pero supongo que eso\nno es todo lo que hago.",
-	"No tenía mucho de haber llegado\ny empezar a trabajar en mi labor\nsecreta cuando estos tipos llegaron.",
+	"No pasó tanto tiempo desde que llegué\ny me puse a trabajar en mi labor\nsecreta cuando estos tipos llegaron.",
 	"Eso significa que llegaron las\npiezas de la Esmeralda Maestra.\n¡Es mi oportunidad!",
-	"Ya tengo la información sobre el\nProyecto Shadow, así que tomaré\nla Esmeralda Maestra y le\ndiré adiós a este lugar.",
+	"Ya tengo la data sobre el\nProyecto Shadow, así que termino\nde llevarme la gema y me marcho\nde esta carcacha flotante.",
 
 	// Knuckles
 	"Me llamo Rouge, la murciélago,\nmás conocida en mi círculo\ncomo Rouge, la cazatesoros.",
-	"¡Carajo, este terco equidna\nno sabe cuándo rendirse!",
-	"¡Me entregarás la Esmeralda\nMaestra por la fuerza!",
+	"¡Miércale, este equidna\npatudo me tiene harta!",
+	"¡Me vas a entregar la\nEsmeralda Maestra, sí o sí!",
 
 	// Cosmic Wall
 	"¡Soy un genio científico sin igual\nen el mundo, el Dr. Eggman!",
-	"Por fin, el grupo de Sonic\nha irrumpido en la colonia.",
-	"¡¿Y hay dos firmas de\nEsmeraldas Caos?!\n¡¿Qué demonios está pasando?!",
+	"Finalmente el grupo de Sonic\nse infiltró en la colonia.",
+	"¡¿Y hay dos firmas de\nEsmeraldas Caos?!\n¡¿Pero qué cresta está\npasando por acá?!",
 	"Deben estar tramando algo despreciable.",
-	"Si ese es el caso, ¡no puedo\nsentarme a esperar! ¡Volveré\na la colonia y acabaré con esto!",
+	"Si así va a ser la cosa,\n¡no me puedo quedar ahí sentado!\n¡Me voy de vuelta a la colonia\npara terminar con esto!",
 
 	// Tails 2
 	"¡Soy un genio científico sin igual\nen el mundo, el Dr. Eggman!",
-	"¡Mujajaja! ¡Por fin lo logré!\n¡Convertí a ese detestable\nerizo en polvo espacial!",
-	"¿Y? ¿Qué harás ahora, Tails?\n¡Si insistes en desafiarme,\nno te mostraré piedad!",
+	"¡Muajajaja! ¡Por fin lo logré!\n¡Le dejé hecho polvo espacial\na ese erizo de porquería!",
+	"¿Y bien? ¿Qué vas a hacer ahora,\nTails? ¡Si vas a insistir en\ndesafiarme, no voy a tenerte piedad!",
 
 	// Final Chase
 	"Me llamo Shadow, el erizo.\nLa única forma de vida suprema.",
-	"Por fin, las siete Esmeraldas Caos\nestán aquí. Estoy muy cerca\ndel momento en que\nmi deseo se cumplirá.",
+	"Por fin, las siete Esmeraldas Caos\nestán acá. Estoy muy cerca\ndel momento de que\nmi deseo se cumpla.",
 	"Pero incluso a estas alturas,\nalguien parece dirigirse a la\nboca del Cañón Eclipse.\nQué pérdida de tiempo...",
 	"Pero en este plan no hay lugar\npara errores. Hay que eliminar\ntodas las incertidumbres.",
 
@@ -715,7 +715,7 @@ const char* AdvertiseSpanishChileno[]
 	"Para mi sorpresa, era ese erizo azul\nel que se dirigía al Cañón Eclipse.",
 	"Pensé que la cápsula lo había\nconvertido en polvo espacial,\npero parece que no fue así.",
 	"Ahora estoy convencido.\n¡Este erizo es peligroso!",
-	"Como desees, concluyamos esto aquí.\n¡Atestigua el poder de la\nforma de vida suprema!",
+	"Si así lo querí,\nterminemos con esto acá.\n¡Atestigua el poder de la\nforma de vida suprema!",
 
 	// Last story recaps
 
@@ -724,7 +724,7 @@ const char* AdvertiseSpanishChileno[]
 	"¡Algo terrible pasó! Un hombre\nllamado Profesor Gerald creó\nun programa hace mucho tiempo.",
 	"¡Se activó y esta colonia\nestá a punto de estrellarse\ncontra la superficie!",
 	"Parece que Eggman fue engañado\npor Shadow después de todo.",
-	"Le diría que es un tonto\nde ser así, pero supongo que\nahora no es buen momento, ¿no?",
+	"Si fuera así, le diría que eso\nle pasa por aweonao, pero creo\nque me estaría desubicando, ¿verdad?",
 	"Al final, todos decidieron trabajar\njuntos e ir a lo más profundo\nde la colonia para detener a\nlas Esmeraldas Caos desbocadas.",
 	"¡No queda mucho tiempo!\n¡Den lo mejor!",
 
@@ -738,7 +738,7 @@ const char* AdvertiseSpanishChileno[]
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"¡Las Esmeraldas Caos\nya no están enloquecidas,\npero la colonia sigue cayendo!",
 	"¡Ese prototipo se hizo uno con\nla colonia y va a golpear\nla superficie con todos nosotros!",
-	"Finalmente, la colonia entró\nen la atmósfera con el prototipo.\n¡Debemos vencerlo rápidamente!",
+	"Finalmente, la colonia entró\nen la atmósfera con el prototipo.\n¡Tenemos que vencerlo al tiro!",
 	"Ahora es el momento de demostrar\nel poder de Súper Sonic, ¡la fuerza\nsuprema que reúne los deseos de todos!",
 
 	// 2P battle modes
@@ -815,13 +815,13 @@ const char* AdvertiseSpanishChileno[]
 	"Usa el mismo ataque que",
 	"Tails con 20 Anillos.",
 
-	"UCP CHAO",
+	"UCB CHAO",
 	"Esta máquina creada por",
 	"Tails ayuda a un Chao.",
 	"Es débil, pero es el",
 	"personaje más rápido.",
 
-	"UCP CHAO SOMBRÍO",
+	"UCB CHAO SOMBRÍO",
 	"Un Chao sombrío en",
 	"una máquina de Eggman.",
 	"Es fuerte, pero es el",

@@ -815,13 +815,13 @@ const char* AdvertiseSpanishNeutro[]
 	"Usa el mismo ataque que",
 	"Tails con 20 Anillos.",
 
-	"UCP CHAO",
+	"UCB CHAO",
 	"Esta máquina creada por",
 	"Tails ayuda a un Chao.",
 	"Es débil, pero es el",
 	"personaje más rápido.",
 
-	"UCP CHAO SOMBRÍO",
+	"UCB CHAO SOMBRÍO",
 	"Un Chao sombrío en",
 	"una máquina de Eggman.",
 	"Es fuerte, pero es el",
