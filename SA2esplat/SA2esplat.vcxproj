@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Advertise.cpp" />
+    <ClCompile Include="AdvertiseArg.cpp" />
     <ClCompile Include="Credits.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="GunRoboTitles.cpp" />

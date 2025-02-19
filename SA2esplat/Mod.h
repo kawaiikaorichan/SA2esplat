@@ -1,4 +1,5 @@
 #pragma once
 
-void ReplaceAdvertise();
+void ReplaceAdvertiseNeutro();
+void ReplaceAdvertiseArgentino();
 void ReplaceMainCredits();

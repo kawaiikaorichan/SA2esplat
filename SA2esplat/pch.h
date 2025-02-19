@@ -12,5 +12,6 @@
 #include "SA2ModLoader.h"
 #include "Trampoline.h"
 #include "FunctionHook.h"
+#include "IniFile.hpp"
 
 #endif //PCH_H

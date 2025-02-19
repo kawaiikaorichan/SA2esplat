@@ -6,7 +6,7 @@
 DataArray(const char**, AdvertiseGamepad, 0xC70590, 6);
 DataArray(const char**, AdvertiseKeyboard, 0xC705A8, 6);
 
-const char* AdvertiseSpanishNeutro[]
+const char* AdvertiseSpanishArgentino[]
 {
 	// Main menu
 	
@@ -14,7 +14,7 @@ const char* AdvertiseSpanishNeutro[]
 	"\tModo para 2 jugadores.",
 	"\tVe la tabla de clasificaciones.",
 	"\tVe los Logros.",
-	"\tObtén ayuda o ajusta las opciones.",
+	"\tObtené ayuda o ajustalas opciones.",
 	"\tDescarga contenido disponible.",
 	"\tSaldrás del juego.",
 
@@ -954,7 +954,7 @@ const char* AdvertiseSpanishNeutro[]
 };
 
 
-void ReplaceAdvertiseNeutro()
+void ReplaceAdvertiseArgentino()
 {
-	AdvertiseGamepad[Language_Spanish] = AdvertiseKeyboard[Language_Spanish] = AdvertiseSpanishNeutro; // easy way, setting both gamepad and keyboard versions to be the same (they only have differences in, like, 5 lines or something)
+	AdvertiseGamepad[Language_Spanish] = AdvertiseKeyboard[Language_Spanish] = AdvertiseSpanishArgentino; // easy way, setting both gamepad and keyboard versions to be the same (they only have differences in, like, 5 lines or something)
 }

@@ -47,5 +47,8 @@
     <ClCompile Include="GunRoboTitles.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="AdvertiseArg.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
