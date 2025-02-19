@@ -334,7 +334,7 @@ CreditsEntry CreditsSpanish[] = {
 	{ 1, 1, 1, 1, 1, "KAORI GONZALEZ" },
 	{ 1, 1, 1, 1, 1, "CARLOS FELIPE ROJAS" },
 	{ 1, 1, 1, 1, 1, "JULI D'AQUILA" },
-	{ 1, 1, 1, 1, 1, "\"FRAN M. 3YK\"" },
+	{ 1, 1, 1, 1, 1, "FRAN M. 3YK" },
 	{ 1, 1, 1, 1, 1, "ALEJANDRO HANS" },
 	{ 0, 1, 1, 1, 1, NULL },
 	{ 2, 1, 1, 1, 0, "Directora de doblaje" },
