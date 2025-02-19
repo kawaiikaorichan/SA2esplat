@@ -12,26 +12,26 @@ const char* AdvertiseSpanishArgentino[]
 	
 	"\tModo para 1 jugador.",
 	"\tModo para 2 jugadores.",
-	"\tVe la tabla de clasificaciones.",
-	"\tVe los Logros.",
-	"\tObtené ayuda o ajustalas opciones.",
-	"\tDescarga contenido disponible.",
+	"\tMirá la tabla de clasificaciones.",
+	"\tMirá los Logros.",
+	"\tObtené ayuda o ajustá las opciones.",
+	"\tDescargá contenido disponible.",
 	"\tSaldrás del juego.",
 
 	// Help & options
 
-	"\tVer los contenidos extra del juego.",
+	"\tMirá los contenidos extra del juego.",
 	"\tVideo de bonificación.",
-	"\tVe una descripción de cómo jugar.",
-	"\tVe cómo están mapeados los controles.",
-	"\tConfigura las opciones del juego.",
-	"\tMira los créditos.",
+	"\tMirá una descripción de cómo jugar.",
+	"\tMirá cómo están mapeados los controles.",
+	"\tConfigurá las opciones del juego.",
+	"\tMirá los créditos.",
 
 	// Single player
 
-	"\tJuega la historia.",
-	"\tSelecciona una escena de la historia.",
-	"\tJuega los niveles que has superado.",
+	"\tJugá la historia.",
+	"\tElegí una escena de la historia.",
+	"\tJugá los niveles que has superado.",
 
 	// Some 2P mode stuff
 	
@@ -48,30 +48,30 @@ const char* AdvertiseSpanishArgentino[]
 
 	// Memory card select (console leftover)
 	
-	"\tSelecciona una tarjeta de memoria.",
+	"\tElegí una tarjeta de memoria.",
 	"\tNo hay bloques de memoria libres.",
 
 	// File select
 
-	"\tSelecciona una partida.",
-	"\tCrea un archivo nuevo.",
-	"\tCarga una partida.",
-	"\t¿Quieres borrar esta partida?",
+	"\tElegí una partida.",
+	"\tCreá un archivo nuevo.",
+	"\tCargá una partida.",
+	"\t¿Querés borrar esta partida?",
 	"\tNo hay bloques de memoria libres.",
 
 	// Options
 	
-	"\tEscucha la música.",
-	"\tSelecciona Estéreo / Mono.",
-	"\tConfigura la función de vibración.",
-	"\tSelecciona el idioma de las voces.",
-	"\tGuarda o carga datos de juego.",
-	"\tCambia el tema de la pantalla del menú.",
-	"\tCambia la configuración PAL TV.",
-	"\tCambia el sonido a estéreo.",
-	"\tCambia el sonido a mono.",
-	"\tActiva la función de vibración.",
-	"\tDesactiva la función de vibración.",
+	"\tEscuchá la música.",
+	"\tElegí Estéreo / Mono.",
+	"\tConfigurá la función de vibración.",
+	"\tElegí el idioma de las voces.",
+	"\tGuardá o carga datos de juego.",
+	"\tCambiá el tema de la pantalla del menú.",
+	"\tCambiá la configuración PAL TV.",
+	"\tCambiá el sonido a estéreo.",
+	"\tCambiá el sonido a mono.",
+	"\tActivá la función de vibración.",
+	"\tDesactivá la función de vibración.",
 	"\tVoces en español (próximamente todas).",
 	"\tVoces en japonés.",
 	"\tSubtítulos en inglés.",
@@ -82,17 +82,17 @@ const char* AdvertiseSpanishArgentino[]
 
 	// Sound test general
 
-	"\tSelecciona una categoría de música.",
-	"\tSelecciona una canción o música.",
+	"\tElegí una categoría de música.",
+	"\tElegí una canción o música.",
 
 	// Menu themes
 	
-	"\tDebes cargar el archivo del tema.",
-	"\tSelecciona un tema.",
+	"\tDebés cargar el archivo del tema.",
+	"\tElegí un tema.",
 	"\tCargando el archivo de tema.",
 	"\tNo se pudo cargar el archivo.",
 	"\tNo hay un archivo de tema.",
-	"\tDescarga el archivo de la página web.",
+	"\tDescargá el archivo de la página web.",
 
 	// TV settings
 
@@ -123,43 +123,43 @@ const char* AdvertiseSpanishArgentino[]
 
 	// Story select
 
-	"\tElige una historia.",
-	"\tEmpieza en cualquier escena.",
+	"\tElegí una historia.",
+	"\tEmpezá en cualquier escena.",
 
 	// Stage select
 
-	"\tElige un nivel.",
-	"\tElige una misión.",
+	"\tElegí un nivel.",
+	"\tElegí una misión.",
 
 	// Character select
 		
-	"\tElige un personaje.",
+	"\tElegí un personaje.",
 
 	// Boss attack
 
-	"\tPelea contra los jefes de cada historia.",
+	"\tPeleá contra los jefes de cada historia.",
 
 	// Dreamcast 2P mode
 
-	"\tElige un grupo con el panel de control.",
-	"\tElige el tipo de juego.",
+	"\tElegí un grupo con el panel de control.",
+	"\tElegí el tipo de juego.",
 	"\tTipo de juego elegido al azar.",
-	"\tElige un nivel de batalla.",
-	"\tElige un nivel de batalla.",
+	"\tElegí un nivel de batalla.",
+	"\tElegí un nivel de batalla.",
 
 	// Kart racing
 
-	"\tElige un conductor.",
-	"\tElige un circuito.",
-	"\tJuega en el circuito descargado.",
+	"\tElegí un conductor.",
+	"\tElegí un circuito.",
+	"\tJugá en el circuito descargado.",
 	"\tComprobando tarjeta de memoria.",
-	"\tElige un circuito descargado.",
+	"\tElegí un circuito descargado.",
 	"\tNo se encontró ningún archivo de circuito.",
 	"\tComprobando tarjeta de memoria.",
 	"\tNo se encontró ningún archivo descargado.",
-	"\tElige un evento descargado.",
-	"\t¿Quieres jugar a este evento?",
-	"\tEsta nivel todavía no está disponible.",
+	"\tElegí un evento descargado.",
+	"\t¿Querés jugar a este evento?",
+	"\tEste nivel todavía no está disponible.",
 
 	// Sound test
 
@@ -213,7 +213,7 @@ const char* AdvertiseSpanishArgentino[]
 	"\tMúsica de la entrada.",
 	"\tMúsica de la carrera Joya.",
 	"\tMúsica de la danza de apareamiento.",
-	"\tMúsica de fuga.",
+	"\tMúsica de la Consola Chao.",
 	"\tMúsica de la entrega de premios.",
 	"\tMúsica del jardín Sombrío.",
 	"\tMúsica del jardín Heróico.",
@@ -239,31 +239,31 @@ const char* AdvertiseSpanishArgentino[]
 
 	// Unlock stuff messages
 
-	"\tAhora puedes seleccionar escenas\nde la historia Heróica.",
-	"\tSelecciona peleas contra los\njefes de la historia Heróica.",
-	"\tAhora puedes seleccionar escenas\nde la historia Sombría.",
-	"\tSelecciona peleas contra los\njefes de la historia Sombría.",
+	"\tAhora podés elegir escenas\nde la historia Heróica.",
+	"\tElegí peleas contra los\njefes de la historia Heróica.",
+	"\tAhora podés elegir escenas\nde la historia Sombría.",
+	"\tElegí peleas contra los\njefes de la historia Sombría.",
 	"\tTodas las peleas contra los\njefes están disponibles.",
 	"\tMinijuego: Ya están disponibles\nlas carreras de karts con 3 circuitos.",
 	"\tMinijuego: Ya están disponibles\nlas carreras de karts para 2 jugadores.",
-	"\t¡Completaste las misiones de\nSonic! Elige otra skin de Sonic\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nTails! Selecciona otra skin de Tails\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nKnuckles! Selecciona otro skin de Knuckles\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nShadow! Selecciona otra skin de Shadow\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nEggman! Selecciona otra skin de Eggman\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nRouge! Selecciona otra skin para Rouge\nen el modo Versus para 2 jugadores.",
+	"\t¡Completaste las misiones de\nSonic! Elige otra skin de Sonic\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nTails! Selecciona otra skin de Tails\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nKnuckles! Selecciona otro skin de Knuckles\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nShadow! Selecciona otra skin de Shadow\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nEggman! Selecciona otra skin de Eggman\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nRouge! Selecciona otra skin para Rouge\nen el modo para 2 jugadores.",
 	"\tCompletaste todas las misiones\nde Sonic con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Sonic para 2J.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Sonic para 2J.",
 	"\tCompletaste todas las misiones\nde Tails con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Tails para 2J.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Tails para 2J.",
 	"\tCompletaste todas las misiones\nde Knuckles con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Knuckles para 2J.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Knuckles para 2J.",
 	"\tCompletaste todas las misiones\nde Shadow con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Shadow para 2J.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Shadow para 2J.",
 	"\tCompletaste todas las misiones\nde Eggman con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Eggman para 2J.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Eggman para 2J.",
 	"\tCompletaste todas las misiones\nde Rouge con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Rouge para 2 jugadores.",
+	"\tElegí un personaje nuevo\nen el modo Versus de Rouge para 2 jugadores.",
 	"\t¡Felicidades!\n¡Reuniste todos los emblemas!\nDesbloqueaste un nuevo nivel.",
 
 	// Hero story scene select
@@ -290,9 +290,9 @@ const char* AdvertiseSpanishArgentino[]
 	"Aparece Rouge",
 	"¡La base oculta\notra vez!",
 	"El pasado\nde Shadow",
-	"Infíltrate en \nla base oculta",
+	"Infiltrate en \nla base oculta",
 	"Reunión Sombría",
-	"Obtener la Esmeralda\nCaos",
+	"Obtener las Esmeraldas\nCaos",
 	"Pelea contra\nSonic",
 	"El Imperio\nEggman",
 	"La última\nEsmeralda Caos",
@@ -311,7 +311,7 @@ const char* AdvertiseSpanishArgentino[]
 
 	// World ranking and network connection stuff (unused)
 
-	"Presiona el botón de elección de acción (Y) para\nactualizar los datos.",
+	"Presioná el botón de elección de acción (Y) para\nactualizar los datos.",
 	"Clasificación mundial por tiempo",
 	"Clasificación mundial por puntos",
 	"Clasificación mundial de Emblemas",
@@ -319,18 +319,18 @@ const char* AdvertiseSpanishArgentino[]
 	"Clasificación mundial por niveles",
 	"Clasificación mundial por niveles",
 	"Crea tus comentarios",
-	"\tDebes registrarte en la red para\nver las clasificaciones mundiales.",
-	"\tUsa el buscador más reciente \npara registrarte en la red.",
+	"\tDebés registrarte en la red para\nver las clasificaciones mundiales.",
+	"\tUsá el buscador más reciente \npara registrarte en la red.",
 	"\tConectando a la red.",
 	"\tMientras estés conectado a la red,\nse te aplicarán las tasas telefónicas\ncorrespondientes a una llamada \nmetropolitana.\nConsulta el manual para \nobtener más información.",
-	"\t¿Quieres conectarte?",
+	"\t¿Querés conectarte?",
 	"\t<Sí><No>",
 	"\tConectando.",
-	"\tMientras estés conectado a la red,\nse te aplicarán las tasas telefónicas.\n¿Quieres conectarte?\n",
+	"\tMientras estés conectado a la red,\nse te aplicarán las tasas telefónicas.\n¿Querés conectarte?\n",
 	"\t<Sí><No>",
 	"\tMarcando \201\226\201\226\201\226\201|\201\226\201\226\201\226\201|\201\226\201#Numeración en curso...",
 	"\t<Cancelar>",
-	"\tIntroduce el nombre del servidor y \nla contraseña.",
+	"\tIntroducí el nombre del servidor y \nla contraseña.",
 	"Nombre<++>",
 	"Contraseña<++>",
 	"\tNo se ha encontrado el módem.",
@@ -347,7 +347,7 @@ const char* AdvertiseSpanishArgentino[]
 	"\tImposible conectar con el servidor.\nLa autentificación ha fallado.",
 	"\tComprueba el nombre y contraseña.",
 	"\tDesconexión automática.",
-	"\tSe te cobrarán las tarifas telefónicas\nmientras estés conectado.\n¿Quieres conectarte?",
+	"\tSe te cobrarán las tarifas telefónicas\nmientras estés conectado.\n¿Querés conectarte?",
 	"\tConectado a la Red Sonic.",
 	"\tEl servidor está ocupado.",
 	"\tVuelve a intentarlo más tarde.",
@@ -366,39 +366,39 @@ const char* AdvertiseSpanishArgentino[]
 	"\tBajaste hasta el puesto <++>\nen <++> por tiempo.",
 	"\tBajaste hasta el puesto <++>\nen la puntuación de emblemas.",
 	"<++>",
-	"\t¿Quieres usar este correo \nelectrónico para la confirmación?\n(Puedes configurar el correo para \nrecibir información más adelante.)",
+	"\t¿Querés usar este correo \nelectrónico para la confirmación?\n(Podés configurar el correo para \nrecibir información más adelante.)",
 	"<Sí><No>",
 	"\tNo hay correo configurado.",
-	"\tUsa el buscador más reciente para\ncambiar la configuración del correo.",
-	"¿Eres <++>?",
-	"\tIntroduce tu contraseña.",
+	"\tUsá el buscador más reciente para\ncambiar la configuración del correo.",
+	"¿Sos <++>?",
+	"\tIntroducí tu contraseña.",
 	"\t<Aceptar><Cancelar><La olvidé>",
 	"\tContraseña incorrecta.\nIntroduce la contraseña otra vez.",
 	"<Aceptar><Cancelar><Olvidé con.>",
-	"\t¿Quieres recibir tu contraseña\na través del correo electrónico?",
+	"\t¿Querés recibir tu contraseña\na través del correo electrónico?",
 	"<Sí><No>",
 	"\tSe te envió un correo. Míralo.",
 	"\tBienvenido a la Red Sonic.",
-	"\tIntroduce tu nombre de usuario.",
+	"\tIntroducí tu nombre de usuario.",
 	"\tEl nombre de usuario no debe \nser superior a 12 caracteres.",
 	"<Aceptar> <Cancelar>",
 	"<++>",
 	"\tEste nombre de usuario ya existe.",
-	"\tIntroduce una contraseña para \nutilizar este nombre de usuario.",
+	"\tIntroducí una contraseña para \nutilizar este nombre de usuario.",
 	"<Aceptar><Cancelar><La olvidé>",
-	"\tDespués, introduce la contraseña.",
+	"\tDespués, introducí la contraseña.",
 	"\tLa contraseña deben tener mínimo \n5 caracteres y máximo 12.",
 	"<Aceptar><Regresar>",
 	"\tCrear cuenta de correo electrónico.",
 	"\tSi olvidaste la contraseña, te la\npodemos mandar por correo.",
 	"<Aceptar><Cancelar>",
-	"\t¿Quieres compartir tu dirección de\ncorreo con otros usuarios?\nSi no quieres, selecciona \"No\".",
+	"\t¿Querés compartir tu dirección de\ncorreo con otros usuarios?\nSi no querés, selecciona \"No\".",
 	"<Sí><No>",
-	"\tSelecciona el país y la región \ndonde vives.",
+	"\tElegí el país y la región \ndonde vives.",
 	"País: <++>",
 	"Región: <++>",
 	"<Aceptar><Cancelar>",
-	"\tLa Red Sonic es una zona pública\ndonde se intercambia información\ncon otros usuarios del mundo.\nCompórtate de manera civilizada.\nLos usuarios pueden recibir avisos y\nse les puede exigir que no usen \neste servicio, si las actividades\nvan contra las reglas de la Red Sonic.",
+	"\tLa Red Sonic es una zona pública\ndonde se intercambia información\ncon otros usuarios del mundo.\nComportate de manera civilizada.\nLos usuarios pueden recibir avisos y\nse les puede exigir que no usen \neste servicio, si las actividades\nvan contra las reglas de la Red Sonic.",
 	"",
 	"",
 	"Registro completado.",
@@ -406,16 +406,16 @@ const char* AdvertiseSpanishArgentino[]
 	"\tLista de clasificaciones.",
 	"\tBuscar clasificación por usuario.",
 	"\tclasificación por país o región.",
-	"\tIntroduce clasificación.",
+	"\tIntroducí clasificación.",
 	"<++>",
-	"\tIntroduce el parámetro de búsqueda.",
+	"\tIntroducí el parámetro de búsqueda.",
 	"<++>",
-	"\tIntroduce país que quieres ver.",
+	"\tIntroducí el país que querés ver.",
 	"País<++>",
 	"Región<++>",
 	"<Aceptar> <Cancelar>",
-	"\tPuedes ver la información del usuario.",
-	"\tPresiona el botón de ataque (B) para volver\na la pantalla de la lista.",
+	"\tPodés ver la información del usuario.",
+	"\tPresioná el botón de ataque (B) para volver\na la pantalla de la lista.",
 
 	// Hero story recaps
 
@@ -423,23 +423,23 @@ const char* AdvertiseSpanishArgentino[]
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Unos tipos medio raros\naparecieron de repente y me invitaron\na dar un paseíto aéreo...",
 	"¿Eh? ¿Pero qué...? ¡¿Esposas?!\n¡A ver, un momentito! ¿Dicen que\nsoy un prófugo de una instalación militar?",
-	"Al principio me dio risa,\npero ya me colmaron la paciencia.",
-	"¡Me largo de este lugar\ntan aburrido!",
+	"Al principio me lo tomé\nen joda, pero ya me cansaron.",
+	"¡No quiero saber nada\nde un lugar así!",
 
 	// Big Foot
 	"¡Soy Sonic! ¡Sonic, el erizo!",
-	"Vaya, esos tipos son muy tercos.\n¡¿Pero quién creen que soy?!",
-	"De tanto perseguirme ya les\nanocheció, y ahora hasta\nllamaron a un enorme robot.",
-	"Supongo que quieren atraparme\na cualquier costo.",
+	"Mirá si esos tipos son cabezaduras.\n¡¿Pero qué se piensan que soy?!",
+	"De tanto que me persiguieron\nse les hizo de noche, y ahora\nes cuando traen a un robot grandote.",
+	"Imagino que me quieren\natrapar como sea.",
 	"¡Ja! Quiero verlos intentarlo.\n¡Esta chatarra no durará ni tres minutos!",
 
 	// Wild Canyon
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"Tenían que robar precisamente\nla Esmeralda Maestra de Isla Ángel.",
 	"La ladrona fue esta murciélago\nodiosa y coqueta.",
 	"Justo cuando estaba por\natraparla, ¡Eggman se apareció e\nintentó robar la Esmeralda Maestra!",
 	"Como último recurso, logré\ndestrozar la Esmeralda Maestra para\nevitar problemas, pero sus pedazos\nse esparcieron por doquier.",
-	"Esa murciélago también fue a\nbuscar las piezas. ¡Debo\nencontrarlas rápido y restaurarla!",
+	"Esa murciélago también se puso\na buscarlos. ¡Los tengo que encontrar\nya y restaurar la Esmeralda!",
 
 	// Eggman 1
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
@@ -454,19 +454,19 @@ const char* AdvertiseSpanishArgentino[]
 	"Mi nombre es Miles Prower,\npero todos me llaman Tails.",
 	"Rescaté a Amy de Eggman.\nElla dice que él no está\nplaneando nada bueno.",
 	"¡Me preocupa lo que\ntrama Eggman, pero primero\ntengo que salvar a Sonic!",
-	"¿Qué? ¿Aún quieres venir\nconmigo, Amy? Bueno, está bien,\npero no vayas a estorbar.",
+	"¿Qué? ¿Todavía querés venir, Amy?\nBueno, dale. Pero no molestes.",
 
 	// Metal Harbor
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"¡Dios, Amy, ¿por qué tenías\nque seguirme hasta acá?!",
-	"Da igual, debo encargarme de él.\nParece que Shadow,\nel erizo que separece a mí,\ntambién vino a esta isla.",
-	"Ahora que lo sé, me voy.\n¡A tomar desprevenidos a\nlos militares para fugarme!",
+	"Bah, me tengo que encargar de él.\nParece que Shadow,\nel erizo que se parece a mí,\ntambién está en la isla.",
+	"Ahora que sé eso, me voy.\n¡Los tomo dormidos a los\nmilitares y chau!",
 	"Ah... ¿entonces ahora\nsí soy un prófugo?",
 
 	// Shadow 1
 	"¡Soy Sonic! ¡Sonic, el erizo!",
 	"Salí de la base\nmilitar en una pieza.\n¡Y lo que me encuentro!",
-	"¡Shadow, esta vez no escaparás!",
+	"¡Shadow, esta vez sos mío!",
 
 	// Green Forest
 	"¡Soy Sonic! ¡Sonic, el erizo!",
@@ -475,7 +475,7 @@ const char* AdvertiseSpanishArgentino[]
 	"¡Agh, primero hay que\nsalir de esta isla!\n¡Debo avisarles a Amy y Tails!",
 
 	// Pumpkin Hill
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"Sintiendo una tenue presencia\nde la Esmeralda Maestra,\nterminé en unas montañas lejanas.",
 	"El ambiente se siente tenebroso,\npero no debo tener miedo.",
 	"¡Debo reunir rápido las piezas\nde la Esmeralda Maestra!",
@@ -489,7 +489,7 @@ const char* AdvertiseSpanishArgentino[]
 	"Primero debemos hallar\nun lugar seguro.",
 
 	// Aquatic Mine
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"Seguí la señal de la\nEsmeralda Maestra a las montañas.",
 	"Parece que esta era\nuna mina carbonífera.\nAhora está parcialmente inundada.",
 	"Va a costarme encontrar\nlas piezas, pero no puedo\nquejarme todo el tiempo.",
@@ -516,14 +516,14 @@ const char* AdvertiseSpanishArgentino[]
 	"Tiene que haber una forma\nde llegar al espacio.\nNo perdamos más tiempo. ¡En marcha!",
 
 	// Death Chamber
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"La base secreta de Eggman está\nen lo profundo de la pirámide.",
 	"Parece que necesitamos unas\nllaves para abrir esta puerta.",
 	"¿Qué? ¿Debo buscar la llave?\n¡Eso será una joda! Pero esto\nes por la Esmeralda Maestra.",
 	"¡Te enseñaré por qué soy\nel mejor buscador de tesoros!",
 
 	// King Boom Boo
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"Encontrar las llaves\nfue pan comido. Ahora podemos\nentrar a la base secreta.",
 	"¿Mmm? ¿Y esta presencia?\n¡¿U-Un fantasma?!\n¿Será el guardián de la pirámide?",
 	"No creo que se pueda\nrazonar con este tipo.\nLo siento, pero me dejarás pasar,\nasí deba obligarte!",
@@ -543,13 +543,13 @@ const char* AdvertiseSpanishArgentino[]
 	"¡Ups, también debo ir a destruir\nel generador de la colonia!",
 
 	// Meteor Herd
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"¡Todas las piezas de la\nEsmeralda Maestra que había reunido\nse salieron del transbordador!",
 	"Proteger la Esmeralda Maestra\nno es una tarea fácil.",
 	"¡Tengo que encontrarlas\nde nuevo antes de que\nse puedan volver a dispersar!",
 
 	// Rouge
-	"Soy Knuckles, el equidna.\nLlámame Knuckles.",
+	"Soy Knuckles, el equidna.\nDecime Knuckles.",
 	"Reuní la mitad de las piezas,\n¡y en ese momento la murciélago\nse me apareció!",
 	"¡Ella debe tener la otra mitad!\n¡Basta de charla!\n¡No me contendré,\nni porque sea mujer!",
 	"¡Tendré el resto de la\nEsmeralda Maestra de regreso!",
@@ -743,7 +743,7 @@ const char* AdvertiseSpanishArgentino[]
 
 	// 2P battle modes
 
-	"\tElige un juego de batalla.",
+	"\tElegí un juego de batalla.",
 	"\tBatalla aleatoria.",
 	"\tBatalla de carrera de acción.",
 	"\tBatalla de caza de tesoros.",
@@ -751,7 +751,7 @@ const char* AdvertiseSpanishArgentino[]
 	"\tKarate Chao.",
 	"\tCarrera Chao.",
 	"\tCarrera de Karts.",
-	"\tElige un personaje para la batalla.",
+	"\tElegí un personaje para la batalla.",
 
 	// 2P battle character descriptions
 
@@ -841,18 +841,18 @@ const char* AdvertiseSpanishArgentino[]
 
 	// 2P battle stage select
 
-	"\tElige un nivel para la batalla.",
+	"\tElegí un nivel para la batalla.",
 	"\tContenido descargable necesario para desbloquear el nivel.",
 	"\tElegir nivel del nivel 1 aleatoriamente.",
 	"\tElegir nivel del nivel 2 aleatoriamente.",
 	"\tElegir nivel del nivel 3 aleatoriamente.",
 	"\tElegir nivel del nivel 4 aleatoriamente.",
-	"\tCambiar la configuración de la batalla.",
+	"\tCambiár la configuración de la batalla.",
 	"\tVolver a elegir fase.",
 	"\tDesventaja automática ACTIVAR / DESACTIVAR.",
-	"\tCambiar configuración de la desventaja automática.",
+	"\tCambiár configuración de la desventaja automática.",
 	"\tEstablecer límite de tiempo ACTIVAR / DESACTIVAR.",
-	"\tCambiar número de batallas.",
+	"\tCambiár número de batallas.",
 
 	// Emblem results
 
@@ -901,7 +901,7 @@ const char* AdvertiseSpanishArgentino[]
 
 	// SA2B TV settings
 
-	"\tCambiar a salida progresiva.",
+	"\tCambiár a salida progresiva.",
 	"\tConfigurar salida progresiva.",
 	"\tConfigurar salida VHS.",
 
@@ -938,7 +938,7 @@ const char* AdvertiseSpanishArgentino[]
 	"\tEsta tarjeta de memoria está defectuosa.",
 	"\tNúmero máximo de archivos superado.",
 	"\tDemasiados archivos. Chao sin guardar.",
-	"\tEste archivo está dañado. ¿Quieres formatear?",
+	"\tEste archivo está dañado. ¿Querés formatear?",
 
 	// 2P battle main screen
 	

@@ -30,8 +30,8 @@ const char* AdvertiseSpanishNeutro[]
 	// Single player
 
 	"\tJuega la historia.",
-	"\tSelecciona una escena de la historia.",
-	"\tJuega los niveles que has superado.",
+	"\tElige una escena de la historia.",
+	"\tJuega los niveles que ya pasaste.",
 
 	// Some 2P mode stuff
 	
@@ -48,12 +48,12 @@ const char* AdvertiseSpanishNeutro[]
 
 	// Memory card select (console leftover)
 	
-	"\tSelecciona una tarjeta de memoria.",
+	"\tElige una tarjeta de memoria.",
 	"\tNo hay bloques de memoria libres.",
 
 	// File select
 
-	"\tSelecciona una partida.",
+	"\tElige una partida.",
 	"\tCrea un archivo nuevo.",
 	"\tCarga una partida.",
 	"\t¿Quieres borrar esta partida?",
@@ -62,9 +62,9 @@ const char* AdvertiseSpanishNeutro[]
 	// Options
 	
 	"\tEscucha la música.",
-	"\tSelecciona Estéreo / Mono.",
+	"\tElige Estéreo / Mono.",
 	"\tConfigura la función de vibración.",
-	"\tSelecciona el idioma de las voces.",
+	"\tElige el idioma de las voces.",
 	"\tGuarda o carga datos de juego.",
 	"\tCambia el tema de la pantalla del menú.",
 	"\tCambia la configuración PAL TV.",
@@ -82,13 +82,13 @@ const char* AdvertiseSpanishNeutro[]
 
 	// Sound test general
 
-	"\tSelecciona una categoría de música.",
-	"\tSelecciona una canción o música.",
+	"\tElige una categoría de música.",
+	"\tElige una canción o música.",
 
 	// Menu themes
 	
 	"\tDebes cargar el archivo del tema.",
-	"\tSelecciona un tema.",
+	"\tElige un tema.",
 	"\tCargando el archivo de tema.",
 	"\tNo se pudo cargar el archivo.",
 	"\tNo hay un archivo de tema.",
@@ -159,7 +159,7 @@ const char* AdvertiseSpanishNeutro[]
 	"\tNo se encontró ningún archivo descargado.",
 	"\tElige un evento descargado.",
 	"\t¿Quieres jugar a este evento?",
-	"\tEsta nivel todavía no está disponible.",
+	"\tEste nivel todavía no está disponible.",
 
 	// Sound test
 
@@ -239,31 +239,31 @@ const char* AdvertiseSpanishNeutro[]
 
 	// Unlock stuff messages
 
-	"\tAhora puedes seleccionar escenas\nde la historia Heróica.",
-	"\tSelecciona peleas contra los\njefes de la historia Heróica.",
-	"\tAhora puedes seleccionar escenas\nde la historia Sombría.",
-	"\tSelecciona peleas contra los\njefes de la historia Sombría.",
+	"\tAhora puedes elegir escenas\nde la historia Heróica.",
+	"\tElige peleas contra los\njefes de la historia Heróica.",
+	"\tAhora puedes elegir escenas\nde la historia Sombría.",
+	"\tElige peleas contra los\njefes de la historia Sombría.",
 	"\tTodas las peleas contra los\njefes están disponibles.",
 	"\tMinijuego: Ya están disponibles\nlas carreras de karts con 3 circuitos.",
 	"\tMinijuego: Ya están disponibles\nlas carreras de karts para 2 jugadores.",
-	"\t¡Completaste las misiones de\nSonic! Elige otra skin de Sonic\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nTails! Selecciona otra skin de Tails\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nKnuckles! Selecciona otro skin de Knuckles\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nShadow! Selecciona otra skin de Shadow\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nEggman! Selecciona otra skin de Eggman\nen el modo Versus para 2 jugadores.",
-	"\t¡Completaste las misiones de\nRouge! Selecciona otra skin para Rouge\nen el modo Versus para 2 jugadores.",
+	"\t¡Completaste las misiones de\nSonic! Elige otra skin de Sonic\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nTails! Selecciona otra skin de Tails\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nKnuckles! Selecciona otro skin de Knuckles\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nShadow! Selecciona otra skin de Shadow\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nEggman! Selecciona otra skin de Eggman\nen el modo para 2 jugadores.",
+	"\t¡Completaste las misiones de\nRouge! Selecciona otra skin para Rouge\nen el modo para 2 jugadores.",
 	"\tCompletaste todas las misiones\nde Sonic con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Sonic para 2J.",
+	"\tElige un personaje nuevo\nen el modo Versus de Sonic para 2J.",
 	"\tCompletaste todas las misiones\nde Tails con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Tails para 2J.",
+	"\tElige un personaje nuevo\nen el modo Versus de Tails para 2J.",
 	"\tCompletaste todas las misiones\nde Knuckles con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Knuckles para 2J.",
+	"\tElige un personaje nuevo\nen el modo Versus de Knuckles para 2J.",
 	"\tCompletaste todas las misiones\nde Shadow con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Shadow para 2J.",
+	"\tElige un personaje nuevo\nen el modo Versus de Shadow para 2J.",
 	"\tCompletaste todas las misiones\nde Eggman con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Eggman para 2J.",
+	"\tElige un personaje nuevo\nen el modo Versus de Eggman para 2J.",
 	"\tCompletaste todas las misiones\nde Rouge con Rango \"A\".",
-	"\tSelecciona un personaje nuevo\nen el modo Versus de Rouge para 2 jugadores.",
+	"\tElige un personaje nuevo\nen el modo Versus de Rouge para 2 jugadores.",
 	"\t¡Felicidades!\n¡Reuniste todos los emblemas!\nDesbloqueaste un nuevo nivel.",
 
 	// Hero story scene select
@@ -292,7 +292,7 @@ const char* AdvertiseSpanishNeutro[]
 	"El pasado\nde Shadow",
 	"Infíltrate en \nla base oculta",
 	"Reunión Sombría",
-	"Obtener la Esmeralda\nCaos",
+	"Obtener las Esmeraldas\nCaos",
 	"Pelea contra\nSonic",
 	"El Imperio\nEggman",
 	"La última\nEsmeralda Caos",
@@ -394,7 +394,7 @@ const char* AdvertiseSpanishNeutro[]
 	"<Aceptar><Cancelar>",
 	"\t¿Quieres compartir tu dirección de\ncorreo con otros usuarios?\nSi no quieres, selecciona \"No\".",
 	"<Sí><No>",
-	"\tSelecciona el país y la región \ndonde vives.",
+	"\tElige el país y la región \ndonde vives.",
 	"País: <++>",
 	"Región: <++>",
 	"<Aceptar><Cancelar>",
@@ -410,7 +410,7 @@ const char* AdvertiseSpanishNeutro[]
 	"<++>",
 	"\tIntroduce el parámetro de búsqueda.",
 	"<++>",
-	"\tIntroduce país que quieres ver.",
+	"\tIntroduce el país que quieres ver.",
 	"País<++>",
 	"Región<++>",
 	"<Aceptar> <Cancelar>",
