@@ -2,7 +2,7 @@
 #include "Mod.h"
 #include "GunRoboTitles.h"
 
-HMODULE DCconversion = GetModuleHandle(L"DCMods_Main");
+#define ReplaceEventFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\event\\" a ".prs", "resource\\gd_PC\\event\\" b ".prs");
 
 enum Doblaje { Neutro, Mexicano, Chileno, Argentino };
 
@@ -26,11 +26,24 @@ extern "C"
 
 		if (Dub == Argentino)
 		{
+			ReplaceEventFile("evmesH3", "evmesH3arg");
+			ReplaceEventFile("evmesD3", "evmesD3arg");
+			ReplaceEventFile("evmesL3", "evmesL3arg");
 			ReplaceAdvertiseArgentino();
 		}
 		else if (Dub == Chileno)
 		{
+			ReplaceEventFile("evmesH3", "evmesH3chi");
+			ReplaceEventFile("evmesD3", "evmesD3chi");
+			ReplaceEventFile("evmesL3", "evmesL3chi");
 			ReplaceAdvertiseChileno();
+		}
+		else if (Dub == Mexicano)
+		{
+            ReplaceEventFile("evmesH3", "evmesH3mex");
+			ReplaceEventFile("evmesD3", "evmesD3mex");
+			ReplaceEventFile("evmesL3", "evmesL3mex");
+			ReplaceAdvertiseNeutro();
 		}
 		else
 		{
