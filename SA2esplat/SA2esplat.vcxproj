@@ -151,6 +151,7 @@
     <ClCompile Include="Advertise.cpp" />
     <ClCompile Include="AdvertiseArg.cpp" />
     <ClCompile Include="AdvertiseChi.cpp" />
+    <ClCompile Include="AdvertiseMex.cpp" />
     <ClCompile Include="Credits.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="GunRoboTitles.cpp" />

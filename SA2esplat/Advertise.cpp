@@ -470,7 +470,7 @@ const char* AdvertiseSpanishNeutro[]
 
 	// Green Forest
 	"¡Soy Sonic! ¡Sonic, el erizo!",
-	"Estaba a punto de\najustar cuentas con Shadow,\npero eso ya no importa.",
+	"Estaba a punto de\najustar cuentas con Shadow,\npero eso ya no importa.\nEggman dice que esta isla\nvolará en cinco minutos.",
 	"Eggman dice que esta isla\nvolará en cinco minutos.", // this one is unused for some reason (so you can move it to the previous line with some line breaks)
 	"¡Agh, primero hay que\nsalir de esta isla!\n¡Debo avisarles a Amy y Tails!",
 

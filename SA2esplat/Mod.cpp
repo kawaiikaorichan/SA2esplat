@@ -43,7 +43,7 @@ extern "C"
             ReplaceEventFile("evmesH3", "evmesH3mex");
 			ReplaceEventFile("evmesD3", "evmesD3mex");
 			ReplaceEventFile("evmesL3", "evmesL3mex");
-			ReplaceAdvertiseNeutro();
+			ReplaceAdvertiseMexicano();
 		}
 		else
 		{
