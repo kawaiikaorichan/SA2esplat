@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BossTitles.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GunRoboTitles.h" />
     <ClInclude Include="Mod.h" />
@@ -152,6 +153,7 @@
     <ClCompile Include="AdvertiseArg.cpp" />
     <ClCompile Include="AdvertiseChi.cpp" />
     <ClCompile Include="AdvertiseMex.cpp" />
+    <ClCompile Include="BossTitles.cpp" />
     <ClCompile Include="Credits.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="GunRoboTitles.cpp" />

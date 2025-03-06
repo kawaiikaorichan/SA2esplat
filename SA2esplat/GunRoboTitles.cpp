@@ -82,6 +82,7 @@ GunRoboBossTitleData FlyingDogTitle[] = { { gun_R, 20 }, { gun_1, 20 }, { gun_A,
 
 void SetNewGunRoboTitles() // this goes to Init function
 {
+	SetUpGunRoboFont(EnglishWidths);
 	WriteData((GunRoboBossTitleData**)0x5D8727, BigFootTitle);
 	WriteData((GunRoboBossTitleData**)0x5D8719, HotShotTitle);
 	WriteData((GunRoboBossTitleData**)0x5D870B, FlyingDogTitle);

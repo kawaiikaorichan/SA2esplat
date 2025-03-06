@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Mod.h"
 #include "GunRoboTitles.h"
+#include "BossTitles.h"
 
 #define ReplaceEventFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\event\\" a ".prs", "resource\\gd_PC\\event\\" b ".prs");
 
@@ -53,6 +54,7 @@ extern "C"
 		ReplaceMainCredits();
 
 		SetNewGunRoboTitles();
+		InitOtherBossTitles();
 	}
 
 	__declspec(dllexport) ModInfo SA2ModInfo = { ModLoaderVer };
