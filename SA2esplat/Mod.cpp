@@ -6,6 +6,7 @@
 #define ReplaceEventFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\event\\" a ".prs", "resource\\gd_PC\\event\\" b ".prs");
 #define ReplaceMessageFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\Message\\" a ".prs", "resource\\gd_PC\\Message\\" b ".prs");
 #define ReplaceMessageKFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\MessageK\\" a ".prs", "resource\\gd_PC\\Message\\" b ".prs");
+#define ReplaceMusic(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\ADX\\" a ".adx", "resource\\gd_PC\\ADX\\" b ".adx");
 
 enum Doblaje { Neutro, Mexicano, Chileno, Argentino };
 
@@ -17,8 +18,8 @@ DataArray(NJS_TEXANIM, TechPoints, 0x173B440, 11);
 NJS_TEXANIM TechPointsSpanish[] = {
    { 85, 19, 0, 9, 166, 4, 252, 23, 16, 0 }, //2000
    { 86, 19, 0, 9, 4, 4, 90, 23, 16, 0 }, //Good
-   { 134, 20, 0, 10, 4, 29, 138, 49, 16, 0 }, //Nice
    { 102, 20, 0, 10, 4, 54, 106, 74, 16, 0 }, //Great
+   { 134, 20, 0, 10, 4, 29, 138, 49, 16, 0 }, //Nice
    { 155, 21, 0, 11, 4, 78, 159, 99, 16, 0 }, //Jammin'
    { 144, 20, 0, 10, 4, 105, 118, 125, 16, 0 }, //Cool
    { 131, 20, 0, 10, 4, 130, 135, 150, 16, 0 }, //Radical
@@ -50,6 +51,13 @@ extern "C"
 		if (Dub_String == "Mexicano") Dub = Mexicano;
 		if (Dub_String == "Chileno") Dub = Chileno;
 		if (Dub_String == "Argentino") Dub = Argentino;
+
+		if (MusicaDub == true)
+		{
+			ReplaceMusic("BOSS_07", "BOSS_07e");
+			ReplaceMusic("btl_opng", "btl_opnge");
+			ReplaceMusic("E210_SN1", "E210_SN1e");
+		}
 
 		if (Dub == Argentino)
 		{
@@ -124,6 +132,8 @@ extern "C"
 		helperFunctions.ReplaceTexture("course", "matome01", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\matome01.png"), 10000000, 256, 256);
 		helperFunctions.ReplaceTexture("coursdc", "matome01", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\matome01.png"), 10000000, 256, 256);
 		helperFunctions.ReplaceTexture("coursgc", "matome01", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\matome01.png"), 10000000, 256, 256);
+		helperFunctions.ReplaceTexture("fileSelect", "soundtest_songname", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\soundtest_songname.png"), 8000011, 1024, 1024);
+		helperFunctions.ReplaceTexture("fileSelect_e", "soundtest_songname", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\soundtest_songname.png"), 8000011, 1024, 1024);
 		helperFunctions.ReplaceTexture("kartRace", "kartrace_waku0", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kartrace_waku0.png"), 9000816, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_common", "sikake_10_128", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sikake_10_128.png"), 4009, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_commondc", "sikake_10_128", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sikake_10_128.png"), 4009, 128, 128);
