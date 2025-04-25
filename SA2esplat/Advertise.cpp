@@ -942,8 +942,8 @@ const char* AdvertiseSpanishNeutro[]
 
 	// 2P battle main screen
 	
-	"\tEl J2 debe presionar START para confirmar.",
-	"\tJ1 y J2 deben presionar el botón de salto (A) para continuar.",
+	"\tEl J2 debe presionar ˆ para confirmar.",
+	"\tJ1 y J2 deben presionar ± para continuar.",
 	"\tJ1 y J2 deben presionar ¶ para continuar.",
 	"\tJ1 y J2 deben presionar ± para continuar.",
 

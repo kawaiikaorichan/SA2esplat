@@ -7,6 +7,7 @@
 #define ReplaceMessageFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\Message\\" a ".prs", "resource\\gd_PC\\Message\\" b ".prs");
 #define ReplaceMessageKFile(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\MessageK\\" a ".prs", "resource\\gd_PC\\Message\\" b ".prs");
 #define ReplaceMusic(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\ADX\\" a ".adx", "resource\\gd_PC\\ADX\\" b ".adx");
+#define ReplaceVoices(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\event_adx_e\\" a ".ahx", "resource\\gd_PC\\event_adx_e\\" b ".ahx");
 
 enum Doblaje { Neutro, Mexicano, Chileno, Argentino };
 
@@ -44,7 +45,7 @@ extern "C"
 		const IniFile* config = new IniFile(std::string(path) + "\\config.ini");
 
 		std::string Dub_String = "Neutro";
-		Dub_String = config->getString("Opciones", "Localizacion", "Neutro");
+		Dub_String = config->getString("Opciones", "IncludeDir0", "Neutro");
 		MusicaDub = config->getBool("Opciones", "MusicaDub", true);
 
 		if (Dub_String == "Neutro") Dub = Neutro;
@@ -78,6 +79,38 @@ extern "C"
 			ReplaceMessageKFile("mh0037s", "mh0037sarg");
 			ReplaceMessageFile("mh0038s", "mh0038sarg");
 			ReplaceMessageKFile("mh0038s", "mh0038sarg");
+			//Voces
+			//Tails
+			ReplaceVoices("0917", "0917a");
+			ReplaceVoices("0941", "0941a");
+			ReplaceVoices("0977", "0977a");
+			ReplaceVoices("1001", "1001a");
+			ReplaceVoices("1014", "1014a");
+			ReplaceVoices("1026", "1026a");
+			ReplaceVoices("1038", "1038a");
+			ReplaceVoices("1050", "1050a");
+			ReplaceVoices("1062", "1062a");
+			ReplaceVoices("1154", "1154a");
+			ReplaceVoices("1165", "1165a");
+			ReplaceVoices("1657", "1657a");
+			ReplaceVoices("1667", "1667a");
+			ReplaceVoices("1707", "1707a");
+			ReplaceVoices("1715", "1715a");
+			ReplaceVoices("1729", "1729a");
+			ReplaceVoices("1761", "1761a");
+			ReplaceVoices("1792", "1792a");
+			ReplaceVoices("1892", "1892a");
+			ReplaceVoices("1893", "1893a");
+			ReplaceVoices("1931", "1931a");
+			ReplaceVoices("1990", "1990a");
+			ReplaceVoices("2270", "2270a");
+			ReplaceVoices("2273", "2273a");
+			ReplaceVoices("2274", "2274a");
+			//Tikal
+			ReplaceVoices("2720", "2720a");
+			ReplaceVoices("2723", "2723a");
+			ReplaceVoices("2725", "2725a");
+			ReplaceVoices("2726", "2726a");
 			ReplaceAdvertiseArgentino();
 		}
 		else if (Dub == Chileno)
@@ -99,6 +132,25 @@ extern "C"
 			ReplaceMessageKFile("mh0037s", "mh0037schi");
 			ReplaceMessageFile("mh0038s", "mh0038schi");
 			ReplaceMessageKFile("mh0038s", "mh0038schi");
+			//Voces
+			//Tails
+			ReplaceVoices("1667", "1667c");
+			ReplaceVoices("1761", "1761c");
+			ReplaceVoices("1792", "1792c");
+			ReplaceVoices("1892", "1892c");
+			ReplaceVoices("1893", "1893c");
+			ReplaceVoices("1931", "1931c");
+			ReplaceVoices("1990", "1990c");
+			ReplaceVoices("2261", "2261c");
+			ReplaceVoices("2264", "2264c");
+			ReplaceVoices("2270", "2270c");
+			ReplaceVoices("2271", "2271c");
+			ReplaceVoices("2274", "2274c");
+			//Tikal
+			ReplaceVoices("2720", "2720c");
+			ReplaceVoices("2723", "2723c");
+			ReplaceVoices("2725", "2725c");
+			ReplaceVoices("2726", "2726c");
 			ReplaceAdvertiseChileno();
 		}
 		else if (Dub == Mexicano)
@@ -110,6 +162,11 @@ extern "C"
 			ReplaceMessageKFile("mh0066s", "mh0066smex");
 			ReplaceMessageFile("mh0035s", "mh0035smex");
 			ReplaceMessageKFile("mh0035s", "mh0035smex");
+			//Voces
+			//Tails
+			ReplaceVoices("1990", "1990m");
+			ReplaceVoices("2264", "2264m");
+			ReplaceVoices("2270", "2270m");
 			ReplaceAdvertiseMexicano();
 		}
 		else

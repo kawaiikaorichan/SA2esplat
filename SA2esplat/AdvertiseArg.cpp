@@ -942,8 +942,8 @@ const char* AdvertiseSpanishArgentino[]
 
 	// 2P battle main screen
 	
-	"\tEl J2 tiene que presionar START para confirmar.",
-	"\tJ1 y J2 tienen que presionar el botón de salto (A) para continuar.",
+	"\tEl J2 tiene que presionar ˆ para confirmar.",
+	"\tJ1 y J2 tienen que presionar ± para continuar.",
 	"\tJ1 y J2 tienen que presionar ¶ para continuar.",
 	"\tJ1 y J2 tienen que presionar ± para continuar.",
 
