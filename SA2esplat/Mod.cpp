@@ -81,6 +81,13 @@ extern "C"
 			ReplaceMessageKFile("mh0038s", "mh0038sarg");
 			//Voces
 			//Tails
+			ReplaceVoices("0053", "0053a");
+			ReplaceVoices("0059", "0059a");
+			ReplaceVoices("0063", "0063a");
+			ReplaceVoices("0104", "0104a");
+			ReplaceVoices("0202", "0202a");
+			ReplaceVoices("0207", "0207a");
+			ReplaceVoices("0425", "0425a");
 			ReplaceVoices("0917", "0917a");
 			ReplaceVoices("0941", "0941a");
 			ReplaceVoices("0977", "0977a");
@@ -106,11 +113,21 @@ extern "C"
 			ReplaceVoices("2270", "2270a");
 			ReplaceVoices("2273", "2273a");
 			ReplaceVoices("2274", "2274a");
+			ReplaceVoices("2437", "2437a");
+			ReplaceVoices("2515", "2515a");
+			ReplaceVoices("2517", "2517a");
+			ReplaceVoices("2581", "2581a");
+			ReplaceVoices("2586", "2586a");
+			ReplaceVoices("2608", "2608a");
+			ReplaceVoices("2642", "2642a");
 			//Tikal
 			ReplaceVoices("2720", "2720a");
 			ReplaceVoices("2723", "2723a");
 			ReplaceVoices("2725", "2725a");
 			ReplaceVoices("2726", "2726a");
+			//Soldado de G.U.N. 1
+			ReplaceVoices("0000", "0000c");
+			ReplaceVoices("0005", "0005a");
 			ReplaceAdvertiseArgentino();
 		}
 		else if (Dub == Chileno)
@@ -134,6 +151,14 @@ extern "C"
 			ReplaceMessageKFile("mh0038s", "mh0038schi");
 			//Voces
 			//Tails
+			ReplaceVoices("0053", "0053c");
+			ReplaceVoices("0059", "0059c");
+			ReplaceVoices("0063", "0063c");
+			ReplaceVoices("0104", "0104c");
+			ReplaceVoices("0189", "0189c");
+			ReplaceVoices("0202", "0202c");
+			ReplaceVoices("0207", "0207c");
+			ReplaceVoices("0425", "0425c");
 			ReplaceVoices("1667", "1667c");
 			ReplaceVoices("1761", "1761c");
 			ReplaceVoices("1792", "1792c");
@@ -146,11 +171,22 @@ extern "C"
 			ReplaceVoices("2270", "2270c");
 			ReplaceVoices("2271", "2271c");
 			ReplaceVoices("2274", "2274c");
+			ReplaceVoices("2437", "2437c");
+			ReplaceVoices("2515", "2515c");
+			ReplaceVoices("2517", "2517c");
+			ReplaceVoices("2581", "2581c");
+			ReplaceVoices("2586", "2586c");
+			ReplaceVoices("2608", "2608c");
+			ReplaceVoices("2642", "2642c");
 			//Tikal
 			ReplaceVoices("2720", "2720c");
 			ReplaceVoices("2723", "2723c");
 			ReplaceVoices("2725", "2725c");
 			ReplaceVoices("2726", "2726c");
+			//Soldado de G.U.N. 1
+			ReplaceVoices("0000", "0000c");
+			ReplaceVoices("0005", "0005c");
+			ReplaceVoices("0029", "0029c");
 			ReplaceAdvertiseChileno();
 		}
 		else if (Dub == Mexicano)
@@ -164,9 +200,28 @@ extern "C"
 			ReplaceMessageKFile("mh0035s", "mh0035smex");
 			//Voces
 			//Tails
+			ReplaceVoices("0053", "0053m");
+			ReplaceVoices("0056", "0056m");
+			ReplaceVoices("0059", "0059m");
+			ReplaceVoices("0063", "0063m");
+			ReplaceVoices("0104", "0104m");
+			ReplaceVoices("0189", "0189m");
+			ReplaceVoices("0425", "0425m");
+			ReplaceVoices("0705", "0705m");
+			ReplaceVoices("1761", "1761a");
 			ReplaceVoices("1990", "1990m");
 			ReplaceVoices("2264", "2264m");
 			ReplaceVoices("2270", "2270m");
+			ReplaceVoices("2430", "2430m");
+			ReplaceVoices("2431", "2431m");
+			ReplaceVoices("2437", "2437m");
+			ReplaceVoices("2580", "2580m");
+			ReplaceVoices("2606", "2606m");
+			ReplaceVoices("2642", "2642m");
+			//Soldado de G.U.N. 1
+			ReplaceVoices("0004", "0004m");
+			ReplaceVoices("0005", "0005m");
+			ReplaceVoices("0029", "0029m");
 			ReplaceAdvertiseMexicano();
 		}
 		else

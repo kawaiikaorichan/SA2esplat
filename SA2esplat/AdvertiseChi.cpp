@@ -454,7 +454,7 @@ const char* AdvertiseSpanishChileno[]
 	"Mi nombre es Miles Prower,\npero todos me llaman Tails.",
 	"Rescaté a Amy de Eggman.\nElla dice que él no está\nplaneando nada bueno.",
 	"¡Me preocupa lo que\ntrama Eggman, pero primero\ntengo que salvar a Sonic!",
-	"¿Qué? ¿Aún querí acompañarme, Amy?\nVale, esta bien, pero\nno me estei dando la lata.",
+	"¿Qué? ¿Aún quieres acompañarme, Amy?\nVale, esta bien, pero\nno me estei dando la lata.",
 
 	// Metal Harbor
 	"¡Soy Sonic! ¡Sonic, el erizo!",

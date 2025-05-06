@@ -445,7 +445,7 @@ const char* AdvertiseSpanishMexicano[]
 	"Me llamo Miles Prower,\npero todos me llaman Tails.",
 	"Estaba viendo mi tele satelital\ncuando vi las malas noticias.",
 	"¡Mi ídolo, Sonic, fue arrestado\npor hacer algo malo!",
-	"¡No puede ser cierto!\nMe subí al nuevo Tornado y me fui\npara Isla Prisión, donde está Sonic.",
+	"¡No puede ser cierto!\nMe subí al nuevo Tornado y me fui\npara Isla Prisión, donde Sonic está.",
 	"¡¿Pero qué crees?! ¡Ahí estaba mi\narchienemigo, Eggman!\n¡Y está acosando a mi amiga, Amy!\n¡Esto está feo!",
 	"¡Muy bien! ¡Siendo así, voy a\nmostrarle el poder de mi nuevo Tornado!",
 	"¡Tornado, cambio de forma!",
