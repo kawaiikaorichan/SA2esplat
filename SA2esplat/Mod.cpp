@@ -9,6 +9,7 @@
 #define ReplaceMusic(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\ADX\\" a ".adx", "resource\\gd_PC\\ADX\\" b ".adx");
 #define ReplaceVoices(a, b) helperFunctions.ReplaceFile("resource\\gd_PC\\event_adx_e\\" a ".ahx", "resource\\gd_PC\\event_adx_e\\" b ".ahx");
 
+void (*LoadCustomExtraSubs)(const char* jsonPath, Languages language, int codepage) = nullptr;
 enum Doblaje { Neutro, Mexicano, Chileno, Argentino };
 
 static bool MusicaDub = true;
@@ -52,6 +53,41 @@ extern "C"
 		if (Dub_String == "Mexicano") Dub = Mexicano;
 		if (Dub_String == "Chileno") Dub = Chileno;
 		if (Dub_String == "Argentino") Dub = Argentino;
+
+		HMODULE sa2ExtraSubs = GetModuleHandle(L"SA2ExtraSubtitles");
+		if (sa2ExtraSubs != nullptr)
+		{
+			LoadCustomExtraSubs = (decltype(LoadCustomExtraSubs))GetProcAddress(sa2ExtraSubs, "LoadCustomExtraSubs");
+			// call the retrieved function later
+		}
+
+		if (LoadCustomExtraSubs != nullptr)
+		{
+			if (Dub == Argentino)
+			{
+				std::string jsonPath = std::string(path) + "\\ExtraSubs\\Argentino.json";
+				LoadCustomExtraSubs(jsonPath.c_str(), Language_Spanish, 1252);
+			}
+			
+			else if (Dub == Chileno)
+			{
+				std::string jsonPath = std::string(path) + "\\ExtraSubs\\Chileno.json";
+				LoadCustomExtraSubs(jsonPath.c_str(), Language_Spanish, 1252);
+			}
+
+			else if (Dub == Mexicano)
+			{
+				std::string jsonPath = std::string(path) + "\\ExtraSubs\\Mexicano.json";
+				LoadCustomExtraSubs(jsonPath.c_str(), Language_Spanish, 1252);
+			}
+
+			else
+			{
+				std::string jsonPath = std::string(path) + "\\ExtraSubs\\Neutro.json";
+				LoadCustomExtraSubs(jsonPath.c_str(), Language_Spanish, 1252);
+			}
+		}
+
 
 		if (MusicaDub == true)
 		{
