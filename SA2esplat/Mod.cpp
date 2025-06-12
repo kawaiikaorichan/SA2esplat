@@ -275,7 +275,7 @@ extern "C"
 			ReplaceVoices("0035", "0035a");
 			ReplaceVoices("0039", "0039a");
 			ReplaceVoices("0041", "0041a");
-			ReplaceVoices("0051", "0051a");
+			ReplaceVoices("0050", "0050a");
 			ReplaceVoices("0089", "0089a");
 			ReplaceVoices("0114", "0114a");
 			ReplaceVoices("0122", "0122a");
@@ -774,8 +774,14 @@ extern "C"
 		helperFunctions.ReplaceTexture("course", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
 		helperFunctions.ReplaceTexture("coursdc", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
 		helperFunctions.ReplaceTexture("coursgc", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
+		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh006", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_rh006.png"), 13506, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh007", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\anillos.png"), 13507, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 13514, 128, 128);
+		helperFunctions.ReplaceTexture("objtex_stg14", "miu256_rh001", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_rh001.png"), 13801, 256, 256);
+		helperFunctions.ReplaceTexture("objtex_stg14", "miu256_rh002", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_rh002.png"), 13802, 256, 256);
+		helperFunctions.ReplaceTexture("objtex_stg17", "miu256_ms001", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_ms001.png"), 14301, 256, 256);
+		helperFunctions.ReplaceTexture("objtex_stg24", "miu128_ee003", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ee003.png"), 56003, 128, 128);
+		helperFunctions.ReplaceTexture("objtex_stg39", "MIU256_MS001", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_ms001.png"), 14301, 256, 256);
 		helperFunctions.ReplaceTexture("objtex_stg52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);
 		helperFunctions.ReplaceTexture("landtx52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);
 	}
