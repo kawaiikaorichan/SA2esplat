@@ -366,6 +366,26 @@ extern "C"
 			ReplaceVoices("2630", "2630a");
 			ReplaceVoices("2632", "2632a");
 			ReplaceVoices("2633", "2633a");
+			// María
+			ReplaceVoices("0357", "0357a");
+			ReplaceVoices("0445", "0445a");
+			ReplaceVoices("0649", "0649a");
+			ReplaceVoices("0911", "0911a");
+			ReplaceVoices("0923", "0923a");
+			ReplaceVoices("0947", "0947a");
+			ReplaceVoices("0959", "0959a");
+			ReplaceVoices("0995", "0995a");
+			ReplaceVoices("1007", "1007a");
+			ReplaceVoices("1020", "1020a");
+			ReplaceVoices("1032", "1032a");
+			ReplaceVoices("1044", "1044a");
+			ReplaceVoices("1056", "1056a");
+			ReplaceVoices("1115", "1115a");
+			ReplaceVoices("1126", "1126a");
+			ReplaceVoices("1148", "1148a");
+			ReplaceVoices("1159", "1159a");
+			ReplaceVoices("1170", "1170a");
+			ReplaceVoices("1192", "1192a");
 			//Tikal
 			ReplaceVoices("2720", "2720a");
 			ReplaceVoices("2723", "2723a");
@@ -586,6 +606,8 @@ extern "C"
 			ReplaceVoices("2631", "2631c");
 			ReplaceVoices("2632", "2632c");
 			ReplaceVoices("2633", "2633a");
+			// María
+			ReplaceVoices("0445", "0445c");
 			//Tikal
 			ReplaceVoices("2720", "2720c");
 			ReplaceVoices("2723", "2723c");
