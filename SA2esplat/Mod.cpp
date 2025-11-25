@@ -11,9 +11,11 @@
 
 void (*LoadCustomExtraSubs)(const char* jsonPath, Languages language, int codepage) = nullptr;
 enum Doblaje { Neutro, Mexicano, Chileno, Argentino };
+enum Texturas { Dreamcast, Gamecube };
 
 static bool MusicaDub = true;
 static int Dub = Neutro;
+static int Tex = Gamecube;
 
 DataArray(NJS_TEXANIM, TechPoints, 0x173B440, 11);
 
@@ -47,12 +49,16 @@ extern "C"
 
 		std::string Dub_String = "Neutro";
 		Dub_String = config->getString("Opciones", "Localizacion", "Neutro");
+		std::string Tex_String = "Gamecube";
+		Dub_String = config->getString("Opciones", "Version", "Gamecube");
 		MusicaDub = config->getBool("Opciones", "MusicaDub", true);
 
 		if (Dub_String == "Neutro") Dub = Neutro;
 		if (Dub_String == "Mexicano") Dub = Mexicano;
 		if (Dub_String == "Chileno") Dub = Chileno;
 		if (Dub_String == "Argentino") Dub = Argentino;
+		if (Tex_String == "Dreamcast") Tex = Dreamcast;
+		if (Tex_String == "Gamecube") Tex = Gamecube;
 
 		HMODULE sa2ExtraSubs = GetModuleHandle(L"SA2ExtraSubtitles");
 		if (sa2ExtraSubs != nullptr)
@@ -366,6 +372,8 @@ extern "C"
 			ReplaceVoices("2630", "2630a");
 			ReplaceVoices("2632", "2632a");
 			ReplaceVoices("2633", "2633a");
+			// Eggman
+			ReplaceVoices("0057", "0057a");
 			// María
 			ReplaceVoices("0357", "0357a");
 			ReplaceVoices("0445", "0445a");
@@ -606,6 +614,8 @@ extern "C"
 			ReplaceVoices("2631", "2631c");
 			ReplaceVoices("2632", "2632c");
 			ReplaceVoices("2633", "2633a");
+			// Eggman
+			ReplaceVoices("0057", "0057c");
 			// María
 			ReplaceVoices("0445", "0445c");
 			//Tikal
@@ -746,6 +756,21 @@ extern "C"
 			ReplaceVoices("2598", "2598m");
 			ReplaceVoices("2610", "2610m");
 			ReplaceVoices("2632", "2632m");
+			// Eggman
+			ReplaceVoices("0048", "0048m");
+			ReplaceVoices("0057", "0057m");
+			ReplaceVoices("0342", "0342m");
+			// Rouge
+			ReplaceVoices("0033", "0033m");
+			ReplaceVoices("0038", "0038m");
+			ReplaceVoices("0046", "0046m");
+			ReplaceVoices("0216", "0216m");
+			ReplaceVoices("0226", "0226m");
+			ReplaceVoices("0327", "0327m");
+			ReplaceVoices("0332", "0332m");
+			ReplaceVoices("0340", "0340m");
+			ReplaceVoices("0507", "0507m");
+			ReplaceVoices("0517", "0517m");
 			//Soldado de G.U.N. 1
 			ReplaceVoices("0004", "0004m");
 			ReplaceVoices("0005", "0005m");
@@ -790,12 +815,37 @@ extern "C"
 		helperFunctions.ReplaceTexture("missiontex_so", "mission_numall", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\mission_numall.png"), 87006007, 256, 256);
 		helperFunctions.ReplaceTexture("missiontex_ta", "mission_numall", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\mission_numall.png"), 87006007, 256, 256);
 		//Texturas niveles
+		helperFunctions.ReplaceTexture("course", "chao_p", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\chao_p.png"), 90122, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "chao_p", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\chao_p.png"), 90122, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "chao_p", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\chao_p.png"), 90122, 128, 128);
 		helperFunctions.ReplaceTexture("course", "miu128_rh007", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\anillos.png"), 90019, 128, 128);
 		helperFunctions.ReplaceTexture("coursdc", "miu128_rh007", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\anillos.png"), 90019, 128, 128);
 		helperFunctions.ReplaceTexture("coursgc", "miu128_rh007", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\anillos.png"), 90019, 128, 128);
 		helperFunctions.ReplaceTexture("course", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
 		helperFunctions.ReplaceTexture("coursdc", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
 		helperFunctions.ReplaceTexture("coursgc", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 90020, 128, 128);
+		helperFunctions.ReplaceTexture("course", "m_bd", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\m_bd.png"), 90124, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "m_bd", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\m_bd.png"), 90124, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "m_bd", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\m_bd.png"), 90124, 128, 128);
+		helperFunctions.ReplaceTexture("course", "poster1", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\poster1.png"), 90120, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "poster1", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\poster1.png"), 90120, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "poster1", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\poster1.png"), 90120, 128, 128);
+		helperFunctions.ReplaceTexture("course", "sonic", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonic.png"), 90123, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "sonic", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonic.png"), 90123, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "sonic", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonic.png"), 90123, 128, 128);
+		helperFunctions.ReplaceTexture("course", "sonicspin", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonicspin.png"), 90121, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "sonicspin", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonicspin.png"), 90121, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "sonicspin", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\sonicspin.png"), 90121, 128, 128);
+		helperFunctions.ReplaceTexture("course", "start", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start.png"), 90107, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "start", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start.png"), 90107, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "start", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start.png"), 90107, 128, 128);
+		helperFunctions.ReplaceTexture("course", "start_l", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start_l.png"), 90111, 128, 128);
+		helperFunctions.ReplaceTexture("coursdc", "start_l", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start_l.png"), 90111, 128, 128);
+		helperFunctions.ReplaceTexture("coursgc", "start_l", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\start_l.png"), 90111, 128, 128);
+		helperFunctions.ReplaceTexture("landtx34", "kd_ls_unit202", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kd_ls_unit202.png"), 78001, 256, 256);
+		helperFunctions.ReplaceTexture("landtx37", "kd_lk_un205", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kd_ls_unit202.png"), 76022, 256, 256);
+		helperFunctions.ReplaceTexture("landtx38", "kd_lk_un205", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kd_ls_unit202.png"), 70019, 256, 256);
+		helperFunctions.ReplaceTexture("landtx52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh006", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_rh006.png"), 13506, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh007", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\anillos.png"), 13507, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg14", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 13514, 128, 128);
@@ -804,8 +854,29 @@ extern "C"
 		helperFunctions.ReplaceTexture("objtex_stg17", "miu256_ms001", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_ms001.png"), 14301, 256, 256);
 		helperFunctions.ReplaceTexture("objtex_stg24", "miu128_ee003", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ee003.png"), 56003, 128, 128);
 		helperFunctions.ReplaceTexture("objtex_stg39", "MIU256_MS001", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu256_ms001.png"), 14301, 256, 256);
-		helperFunctions.ReplaceTexture("objtex_stg52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);
-		helperFunctions.ReplaceTexture("landtx52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);
+		helperFunctions.ReplaceTexture("objtex_stg52", "miu128_rh014", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\kaori.png"), 10501, 128, 128);		
+		if (Tex == Gamecube)
+		{
+			helperFunctions.ReplaceTexture("course", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009.png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("coursdc", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009.png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("coursgc", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009.png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("course", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010.png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("coursdc", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010.png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("coursgc", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010.png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("landtx14", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009.png"), 11053, 128, 128);
+			helperFunctions.ReplaceTexture("landtx14", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010.png"), 11022, 128, 128);
+		}
+		else
+		{
+			helperFunctions.ReplaceTexture("course", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009(1).png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("coursgc", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009(1).png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("coursdc", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009(1).png"), 90014, 128, 128);
+			helperFunctions.ReplaceTexture("course", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010(1).png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("coursgc", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010(1).png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("coursdc", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010(1).png"), 90015, 128, 128);
+			helperFunctions.ReplaceTexture("landtx14", "miu128_ce009", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce009(1).png"), 11053, 128, 128);
+			helperFunctions.ReplaceTexture("landtx14", "miu128_ce010", helperFunctions.GetReplaceablePath("resource\\gd_PC\\Texturas\\miu128_ce010(1).png"), 11022, 128, 128);
+		}
 	}
 
 	__declspec(dllexport) ModInfo SA2ModInfo = { ModLoaderVer };
